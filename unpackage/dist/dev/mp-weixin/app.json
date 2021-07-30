@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/love/love",
+    "pages/my/my",
+    "pages/buy/buy",
+    "pages/search/search",
+    "pages/publish/publish",
+    "pages/publish_list/publish_list",
+    "pages/like_list/like_list"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "成理表白墙",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/love/love",
+        "iconPath": "static/love.png",
+        "selectedIconPath": "static/love1.png",
+        "text": "海底捞"
+      },
+      {
+        "pagePath": "pages/buy/buy",
+        "iconPath": "static/buy.png",
+        "selectedIconPath": "static/buy1.png",
+        "text": "二手市场"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "static/search.png",
+        "selectedIconPath": "static/search1.png",
+        "text": "失物招领"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/My.png",
+        "selectedIconPath": "static/My1.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

@@ -1,0 +1,11 @@
+
+page {
+	padding-top: 45px;
+}
+.cu-form-group .title {
+	min-width: calc(4em + 15px);
+}
+.money {
+	text-align: right;
+}
+

@@ -1,0 +1,152 @@
+
+page {
+	background: #F5F5F5;
+}
+.meMain {
+	width: 100%;
+	position: relative;
+}
+.meMain>image {
+	width: 100%;
+	height: 220rpx;
+	display: block;
+}
+.meMainBox {
+	width: 92%;
+	margin: 0 auto;
+}
+.mePosition {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.meHead {
+	overflow: hidden;
+	margin: 25rpx;
+	position: relative;
+}
+.meHeadAvatar {
+	float: left;
+	width: 19%;
+	margin-top: 10rpx;
+}
+.meHeadAvatar image {
+	width: 110rpx;
+	height: 110rpx;
+	display: block;
+	border-radius: 50%;
+}
+.meHeadName {
+	float: left;
+	width: 75%;
+	line-height: 120rpx;
+	color: #FFFFFF;
+	font-size: 28rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 5rpx;
+	margin-left: 5rpx;
+}
+.meOverBg {
+	background: #FFFFFF;
+	overflow: hidden;
+	border-radius: 12rpx;
+	margin-top: 30rpx;
+}
+.meVisitor {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.meVisitorLt {
+	width: 50%;
+	text-align: center;
+	margin: 30rpx 0;
+}
+.meVisitorLt:nth-child(1) {
+	border-left: 1px #F5F5F5 solid;
+	border-right: 1px #F5F5F5 solid;
+}
+.meVisitorTxt_01 {
+	font-size: 28rpx;
+	color: #666666;
+}
+.meVisitorTxt_01 image {
+	width: 35rpx;
+	height: 35rpx;
+	vertical-align: middle;
+	margin: 0 10rpx 4rpx 0;
+}
+.meVisitorTxt_02 {
+	font-size: 30rpx;
+	color: #3B7ED5;
+}
+.meVisitorTitle {
+	font-size: 30rpx;
+	color: #333333;
+	border-bottom: 1px #F5F5F5 solid;
+	padding: 20rpx 30rpx;
+}
+.meOrderLt {
+	width: 25%;
+	text-align: center;
+	padding: 30rpx 0;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.meOrderLt:active {
+	background: #E2E2E2;
+}
+.meOrderTxt_01 {}
+.meOrderTxt_01 image {
+	width: 40rpx;
+	height: 40rpx;
+	display: block;
+	margin: 0 auto 6rpx;
+}
+.meOrderTxt_02 {
+	font-size: 24rpx;
+	color: #666666;
+}
+.businessList {
+	overflow: hidden;
+	padding: 30rpx;
+	border-bottom: 1px #F5F5F5 solid;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.businessList:active {
+	background: #E2E2E2;
+}
+.businessList:last-child {
+	border-bottom: none;
+}
+.businessListTxt {
+	float: left;
+	font-size: 28rpx;
+	color: #333333;
+}
+.businessListTxt image {
+	width: 35rpx;
+	height: 35rpx;
+	vertical-align: middle;
+	margin: 0 10rpx 4rpx 0;
+}
+.businessListYou {
+	float: right;
+	font-size: 28rpx;
+	color: #333333;
+}
+.businessListYou image {
+	width: 20rpx;
+	height: 20rpx;
+	vertical-align: middle;
+	margin: 0 0 4rpx 10rpx;
+}
+

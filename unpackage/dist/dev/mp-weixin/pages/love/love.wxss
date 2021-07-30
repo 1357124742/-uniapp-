@@ -1,0 +1,30 @@
+
+.background{
+	background-color: #FF0000;
+}
+.position {
+	margin-right: 50rpx;
+	width: 90rpx;
+	height: 90rpx;
+}
+.swiper {
+	width: 100%;
+	height: 500rpx;
+}
+.image_view{
+	margin-left: 550rpx;
+	width: 80rpx;
+	height: 40rpx;
+	text-align: right;
+}
+.like_image{
+	width: 40rpx;
+	height: 40rpx;
+}
+.image_title{
+	margin-top: 10rpx;
+	width :20rpx;
+	height: 20rpx;
+	float: right;
+}
+

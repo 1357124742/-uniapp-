@@ -1,0 +1,32 @@
+
+.swiper {
+	width: 100%;
+	height: 500rpx;
+}
+.tiezi {
+	width: 70rpx;
+	height: 70rpx;
+	float: right;
+	margin-right: 30rpx;
+}
+.delete {
+	height: 40rpx;
+	width: 40rpx;
+}
+.image_view{
+	margin-left: 550rpx;
+	width: 80rpx;
+	height: 40rpx;
+	text-align: right;
+}
+.like_image{
+	width: 40rpx;
+	height: 40rpx;
+}
+.image_title{
+	margin-top: 10rpx;
+	width :20rpx;
+	height: 20rpx;
+	float: right;
+}
+
